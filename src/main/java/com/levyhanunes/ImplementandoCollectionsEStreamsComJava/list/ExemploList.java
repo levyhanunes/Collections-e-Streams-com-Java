@@ -17,6 +17,11 @@ public class ExemploList {
         nomes.add("Rose");
         nomes.add("Joao");
 
+
+        System.out.println(nomes);
+
+        nomes.set(3, "Teste set()");
+
         System.out.println(nomes);
 
         Collections.sort(nomes);
