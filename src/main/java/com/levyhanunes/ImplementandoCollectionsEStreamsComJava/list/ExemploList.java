@@ -20,7 +20,7 @@ public class ExemploList {
 
         System.out.println(nomes);
 
-        nomes.set(3, "Teste set()");
+        nomes.set(3, "Oliver");
 
         System.out.println(nomes);
 
@@ -33,5 +33,17 @@ public class ExemploList {
         nomes.remove(4);
 
         System.out.println(nomes);
+
+        nomes.remove("Pedro");
+
+        System.out.println(nomes);
+
+        String nome = nomes.get(1);
+
+        System.out.println(nomes);
+
+        int tamanho = nomes.size();
+
+        System.out.println(tamanho);
     }
 }
