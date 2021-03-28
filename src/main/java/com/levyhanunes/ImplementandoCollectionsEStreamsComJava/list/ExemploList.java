@@ -64,5 +64,8 @@ public class ExemploList {
         boolean listaEstaVazia1 = nomes1.isEmpty();
 
         System.out.println(listaEstaVazia1);
+
+        int  existeOliver = nomes.indexOf("Oliver");
+        System.out.println(existeOliver);
     }
 }
