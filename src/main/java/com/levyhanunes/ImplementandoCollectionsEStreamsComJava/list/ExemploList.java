@@ -45,5 +45,13 @@ public class ExemploList {
         int tamanho = nomes.size();
 
         System.out.println(tamanho);
+
+        boolean temLevy = nomes.contains("Levy");
+
+        System.out.println(temLevy);
+
+        boolean temRafaela = nomes.contains("Rafaela");
+
+        System.out.println(temRafaela);
     }
 }
