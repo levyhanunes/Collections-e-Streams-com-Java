@@ -2,6 +2,7 @@ package com.levyhanunes.ImplementandoCollectionsEStreamsComJava.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ExemploList {
@@ -67,5 +68,15 @@ public class ExemploList {
 
         int  existeOliver = nomes.indexOf("Oliver");
         System.out.println(existeOliver);
+
+        for (String nomeDoItem: nomes) {
+            System.out.println("---> " + nomeDoItem);
+        }
+
+        Iterator<String> iterator = nomes.iterator();
+
+        while  (iterator.hasNext()){
+            System.out.println("----> " + iterator.next());
+        }
     }
 }
