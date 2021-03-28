@@ -26,6 +26,12 @@ public class ExemploList {
 
         Collections.sort(nomes);
 
+        nomes.set(2, "Anderson");
+
+        System.out.println(nomes);
+
+        nomes.remove(4);
+
         System.out.println(nomes);
     }
 }
