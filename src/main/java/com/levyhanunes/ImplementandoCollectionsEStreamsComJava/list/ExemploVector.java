@@ -14,6 +14,8 @@ public class ExemploVector {
         esportes.add("Ciclismo");
         esportes.add("Musculação");
 
+        System.out.println(esportes);
+
         esportes.set(2, "Ping Pong");
 
         esportes.remove("Musculação");
@@ -21,5 +23,7 @@ public class ExemploVector {
         System.out.println(esportes.get(0));
 
         for(String esporte: esportes) System.out.println(esporte);
+
+
     }
 }
