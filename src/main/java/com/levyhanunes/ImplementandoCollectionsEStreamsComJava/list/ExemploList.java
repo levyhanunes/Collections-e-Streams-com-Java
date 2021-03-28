@@ -1,6 +1,7 @@
 package com.levyhanunes.ImplementandoCollectionsEStreamsComJava.list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ExemploList {
@@ -15,6 +16,10 @@ public class ExemploList {
         nomes.add("Pedro");
         nomes.add("Rose");
         nomes.add("Joao");
+
+        System.out.println(nomes);
+
+        Collections.sort(nomes);
 
         System.out.println(nomes);
     }
