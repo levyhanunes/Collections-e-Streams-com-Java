@@ -7,6 +7,9 @@ import java.util.List;
 public class ExemploList {
     public static void main(String[] args){
 
+
+        List<String> nomes1 = new ArrayList<>();
+
         List<String> nomes = new ArrayList<>();
 
         nomes.add("Levy");
@@ -53,5 +56,13 @@ public class ExemploList {
         boolean temRafaela = nomes.contains("Rafaela");
 
         System.out.println(temRafaela);
+
+        boolean listaEstaVazia = nomes.isEmpty();
+
+        System.out.println(listaEstaVazia);
+
+        boolean listaEstaVazia1 = nomes1.isEmpty();
+
+        System.out.println(listaEstaVazia1);
     }
 }
