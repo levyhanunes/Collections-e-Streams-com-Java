@@ -16,7 +16,7 @@ public class ExemploTreeSet {
         treeCapitais.add("Curitiba");
         treeCapitais.add("Belo Horizonte");
 
-
+        //retorna todos os elementos do treeSet
         System.out.println(treeCapitais);
 
         //retorna o primeiro elemento do topo da arvore
@@ -34,7 +34,8 @@ public class ExemploTreeSet {
         //retorna a primeira capital a baixo da arvore da capital parametrizada
         System.out.println(treeCapitais.lower("Curitiba"));
 
-        //
+
+
 
     }
 }
